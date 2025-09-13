@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiliad Mystery</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      letter-spacing: 2px;
+      text-transform: lowercase;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .links a {
+      color: white;
+      background-color: #333;
+      text-decoration: none;
+      padding: 0.8rem 2rem;
+      border-radius: 8px;
+      text-align: center;
+      text-transform: lowercase;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .links a:hover {
+      background-color: #555;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Chiliad Mystery</h1>
+
+</body>
+</html>
